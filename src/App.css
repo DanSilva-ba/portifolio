@@ -3,11 +3,10 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
-  background: linear-gradient(#3e838c, white);
+  background: #d7eef8;
   background-attachment: fixed;
   /* Para garantir que o gradiente permaneça fixo */
 }
-
 
 @font-face {
   font-family: 'Rubik';

@@ -20,10 +20,10 @@ export default function ProjectsComponent() {
 
   const projects: Project[] = [
     {
-      projectName: "Nearby",
-      descriptionProject: "",
+      projectName: "Nearby App - Find locations food",
+      descriptionProject: "Find the ideal location to have a snack, the app aims to make your day-to-day easier.",
       pathImage: { src: bannerNearBy },
-      comoFunciona: "Descrição de como o chatbot funciona.",
+      comoFunciona: "Find the ideal location to have a snack, the app aims to make your day-to-day easier.",
       motivoParaDesenvolvimento: "Motivo para o desenvolvimento do chatbot.",
       tecnologies: "React",
     },
@@ -36,22 +36,22 @@ export default function ProjectsComponent() {
       tecnologies: "React",
     },
     {
-      projectName: "APP B.O.M MOTORISTA",
-      descriptionProject: "Aplicativo voltado para motoristas.",
-      pathImage: { src: "" },
-      comoFunciona: "Descrição do funcionamento do APP B.O.M Motorista.",
-      motivoParaDesenvolvimento:
-        "Motivo para o desenvolvimento do APP B.O.M Motorista.",
-      tecnologies: "React",
-    },
-    {
-      projectName: "ChatBot de atendimento",
-      descriptionProject: "Bot para atendimento via WhatsApp.",
-      pathImage: { src: "" },
-      comoFunciona: "Descrição de como o chatbot funciona.",
+      projectName: "Nearby App - Find locations food",
+      descriptionProject: "Find the ideal location to have a snack, the app aims to make your day-to-day easier.",
+      pathImage: { src: bannerNearBy },
+      comoFunciona: "Find the ideal location to have a snack, the app aims to make your day-to-day easier.",
       motivoParaDesenvolvimento: "Motivo para o desenvolvimento do chatbot.",
       tecnologies: "React",
     },
+    {
+      projectName: "Nearby App - Find locations food",
+      descriptionProject: "Find the ideal location to have a snack, the app aims to make your day-to-day easier.",
+      pathImage: { src: bannerNearBy },
+      comoFunciona: "Find the ideal location to have a snack, the app aims to make your day-to-day easier.",
+      motivoParaDesenvolvimento: "Motivo para o desenvolvimento do chatbot.",
+      tecnologies: "React",
+    },
+    
   ];
 
   const [modalIsOpen, setModalIsOpen] = useState(false);
@@ -71,11 +71,12 @@ export default function ProjectsComponent() {
     <div className="container">
       {projects.map((project, index) => (
         <div key={index} id="box">
-          <img id="banner" src={project.pathImage.src} alt="" />
-          <div id="desc_pj">
-            <h1 id="name_project">{project.projectName}</h1>
-            <h2 id="description_project">{project.descriptionProject}</h2>
-            <h3 id="tecnologies">{project.tecnologies}</h3>
+          <img src={project.pathImage.src} alt="" />
+          <h1>{project.projectName}</h1>
+          <h2>{project.descriptionProject}</h2>
+          <div id="container-interactions">
+            <button id="know-more">know-more</button>
+            <button id="repository">Repository</button>
           </div>
         </div>
       ))}

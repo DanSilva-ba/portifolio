@@ -1,16 +1,19 @@
 #header_component {
   display: flex;
+  width: 100%;
   align-items: center;
   flex-direction: row;
   justify-content: space-between;
-  padding-right: 5%;
-  padding-left: 4%;
+  padding-right: 10%;
+  background-color: #01aef3;
+  height: 70px;
+  position: fixed;
+  z-index: 9;
 }
 
 #header_component>ul {
   display: flex;
   flex-direction: row;
-  background-color: white;
   gap: 50px;
   margin-right: 10px;
   list-style: none;

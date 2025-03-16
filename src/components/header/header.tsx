@@ -10,6 +10,8 @@ export default function Header() {
         <li>Sobre</li>
         <li>Projetos</li>
         <li>Habilidades</li>
+        <li><a href="https://www.linkedin.com/in/danilo-s-a94187242/">Linkedin</a></li>
+        <li><a href="https://github.com/DanSilva-ba" target="blank">Github</a></li>
       </ul>
     </header>
   );

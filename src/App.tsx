@@ -17,18 +17,18 @@ function App() {
     <div className="App">
       <Header />
       <Presentation />
-      <TextSobreposition text="" textSobreposition="SOBRE MIM" />
-      <About />
-      <TextSobreposition text="Projetos" textSobreposition="MEUS PROJETOS" />
+      <TextSobreposition text="Projetos" textSobreposition="My projects" />
       <ProjectsComponent />
+      <TextSobreposition text="" textSobreposition="About-me" />
+      <About />
       <TextSobreposition
         text="Minhas habilidades"
-        textSobreposition="HABILIDADES"
+        textSobreposition="Tecnologies"
       />
       <Skills />
       <TextSobreposition
         text="Minhas experiências"
-        textSobreposition="EXPERIÊNCIAS"
+        textSobreposition="Experiênces"
       />
       <Experiences />
     </div>

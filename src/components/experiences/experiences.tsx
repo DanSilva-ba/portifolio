@@ -17,22 +17,11 @@ export default function Experiences() {
   ];
 
   return (
-    <div id="container_experiences">
-      {experiences.map((experience, index) => (
-        <div key={index} id="box_experiences">
-          <div id="container_img_skils"></div>
-          <span id="texts_skils">
-            <h3>Estagiário</h3>
-            <p>
-              Responsável pelo suporte de TI da unidade de ensino e pelo
-              desenvolvimento de chatbots e integrações de sistemas com o
-              WhatsApp.
-            </p>
-            <p>Stacks: Python</p>
-          </span>
-          <div id="bottom_experiences">
-            <img src={experience.imagePath.src} height="50" />
-          </div>
+    <div className="container">
+      {experiences.map((xp, index) => (
+        <div key={index} id="box">
+       
+          <button>know-more</button>
         </div>
       ))}
     </div>

@@ -13,7 +13,7 @@ export default function Presentation() {
           <h4>
             Sou um desenvolvedor fullstack,
             <br /> focado em aplicações mobile / web,
-            <br /> buscando sempre prover provendo a satisfação dos meus
+            <br /> buscando sempre prover a satisfação dos meus
             clientes.
           </h4>
           <div id="btn">Baixar curriculo</div>
