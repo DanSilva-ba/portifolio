@@ -11,18 +11,11 @@
   position: static;
 }
 
-#image_about {
-  height: auto;
-  width: 300px;
-  border-radius: 50%;
-  height: 300px;
-  background-color: rgb(192, 182, 182);
-  position: relative;
-}
+
 
 #image_about>img {
-  width: 300px;
-  height: 300px;
+  width: 50px;
+  height: 50px;
   border-radius: 100%;
   position: absolute;
   margin-left: 50px;

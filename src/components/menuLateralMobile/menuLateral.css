@@ -1,0 +1,11 @@
+.menu__lateral{
+    background-color: rgb(255, 255, 255);
+    width: 40%;
+    height: 200vh;
+    position: absolute;
+    z-index: 9;
+    top: 0;
+    right: 0;
+    display: none;
+    
+}

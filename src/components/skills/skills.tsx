@@ -1,29 +1,85 @@
 import "./skills.css";
-import React, { ReactElement, useEffect, useRef } from "react";
-import java from "../../assets/java.png"
-import javaScript from "../../assets/logotipo-do-java-script.png"
-export default function Skills() {
-  
+import flutterIcon from "../../assets/icons8-vibrar-50.png";
+import javaIcon from "../../assets/java_white.png";
+import dart from "../../assets/Dart.png";
+import javaScript from "../../assets/java-script.png";
+import html from "../../assets/html.png";
+import css from "../../assets/css.png";
+import spring from "../../assets/spring.png";
+import terminal from "../../assets/terminal.png";
+import senaiLogo from "../../assets/senailogo_nova.png";
+import appBomLogo from "../../assets/logoAppBom.png";
 
+export default function Skills() {
   return (
-    <div id="container-tecnologies">
-      
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" height='50px'/>
-      
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original.svg" height='50px' />
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"  height='50px' />
-      
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" height='50px' />
-      
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" height='50px'/>
-          
-          
-      
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flutter/flutter-original.svg" height='50px'/>
-      
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dart/dart-original-wordmark.svg"  height='50px' />
-          
-          
+    <div className="skills">
+      <div className="especialidade1 especialidade">
+        <div className="circle">
+          <img src={terminal} alt="" width="30px" height="30px" />
+        </div>
+        <h1>Front end developer</h1>
+        <h2>
+          Gosto de programar coisas do zero e gosto de dar vida às ideias no
+          navegador.
+        </h2>
+        <span>
+          <h3>Languages:</h3>
+          <p>HTML,CSS,JavaScript</p>
+        </span>
+
+        <span id="dev_tools">
+          <h3>Dev tools:</h3>
+          <ul>
+            <li>Node Js</li>
+            <li>React Js</li>
+            <li>Firebase</li>
+            <li>PostgreSql</li>
+            <li>Metabase</li>
+            <li>React JS</li>
+          </ul>
+        </span>
+      </div>
+      <div className="especialidade2 especialidade">
+        <div className="circle">
+          <img src={terminal} alt="" width="30px" height="30px" />
+        </div>
+        <h1>Back end developer</h1>
+        <h2>
+          Amo criar serviços e integra-los com as minha aplicações web e mobile.
+        </h2>
+
+        <span>
+          <h3>Languages:</h3>
+          <p>Java,Dart,Sql,python</p>
+        </span>
+
+        <span id="dev_tools">
+          <h3>Dev tools:</h3>
+          <ul>
+            <li>Spring boot</li>
+            <li>WebSocket</li>
+            <li>PostgreSQL</li>
+          </ul>
+        </span>
+      </div>
+      <div className="especialidade3 especialidade">
+        <div className="circle">
+          <img src={terminal} alt="" width="30px" height="30px" />
+        </div>
+        <h1>Experiências</h1>
+        <h2>Empresas que ja atuei na área de tecnologia</h2>
+        <span className="list_experiences">
+          <ul>
+            <li>
+              <img src={senaiLogo} alt="" />
+            </li>
+            <li>
+              <img src={appBomLogo} alt="" className="logo_app_bom" />
+            </li>
+            <li></li>
+          </ul>
+        </span>
+      </div>
     </div>
   );
 }

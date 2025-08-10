@@ -4,7 +4,7 @@ import imageProfile from "../../assets/presentation-image.jpg"
 export default function About() {
   return (
     <div id="container_about">
-      <div id="image_about"><img src={imageProfile} alt="" /></div>
+      {/* <div id="image_about"><img src={imageProfile} alt="" /></div> */}
       <h2>
         Sou desenvolvedor fullstack com uma forte paixão por tecnologia e
         inovação. Minha jornada profissional é impulsionada pelo desejo

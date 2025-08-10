@@ -1,62 +1,29 @@
-.container {
+
+.container__experiences{
+    width: 100%;
     display: flex;
     flex-direction: row;
-    /* Itens em uma linha */
-    overflow-x: auto;
-    /* Scroll horizontal */
-    white-space: nowrap;
-    /* Evita quebra de linha */
-    width: 100%;
-    /* Para ajustar ao tamanho da tela */
-    padding: 10px;
-    /* Espaçamento interno opcional */
-    box-sizing: border-box;
-    /* Inclui padding no tamanho total */
+    align-items: center;
     justify-content: center;
-    scrollbar-color: #88e4d4 #88e4d4;
-    overflow-y: hidden;
+    gap: 10px;
+    margin-top: 10px;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
 }
-
-#box {
-    width: 325px;
-    height: 307px;
-    background-color: #D9D9D9;
+#box__experiences {
+    min-height: 320px;
+    min-height: 400px;
+    width: 400px;
+    background-color: white;
+    border: 1px solid #1B1F3B;
     display: flex;
-    align-items: flex-start;
-    object-fit: cover;
-    margin: 10px;
-    position: relative;
     flex-direction: column;
-    flex-wrap: wrap;
+    padding: 10px;
 }
 
-#box > img {
-    height: 200px;
-    width: 100%;
-}
-
-
-#box > h1{
-    font-size: 15px;
-    padding-left: 5px;
-}
-
-#box > h2 {
-    margin-top: -8px;
-    font-size: 10px;
-    text-wrap:initial ;
-    padding-left: 5px;
-    color: gray;
-}
-
-#box > button {
-    background-color: #d7eef8;
-    position: absolute;
-    bottom: 8px;
-    left: 5px;
-    border: 0px;
-    height: 30px;
-    border-radius: 5px;
-    font-weight: 600;
+#cargo{
+    color: #6B6B6B;
+    font-family: 'Rubik', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:15px;
 }
 
